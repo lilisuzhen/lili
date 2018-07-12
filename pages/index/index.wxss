@@ -1,0 +1,10 @@
+/**index.wxss**/
+.swiper-con{
+  width:100%;
+}
+.content{
+  display:flex;
+}
+.pic image{
+  width:150px;
+}

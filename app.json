@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/movie/movie"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle":"white",
+    "navigationBarBackgroundColor":"#000"
+  },
+  "tabBar": {
+    "color":"#eee",
+    "backgroundColor":"#000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "院线热映",
+        "iconPath": "img/wechat.png",
+        "selectedIconPath": "img/wechatHL.png"
+      },
+
+      {
+        "pagePath": "pages/search/search",
+        "text": "查询",
+        "iconPath": "img/wechat.png",
+        "selectedIconPath": "img/wechatHL.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "即将上映",
+        "iconPath": "img/wechat.png",
+        "selectedIconPath": "img/wechatHL.png"
+      }
+ ]}
+}
